@@ -40,7 +40,6 @@ color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('background1.png') no-repeat center center/cover;
     color: #fff;
     text-align: center;
 
@@ -546,8 +545,4 @@ a.inline-flex:hover svg {
 /* This rule will hide the background image only on the Projects page */
 #projects-page {
     background-image: none;
-}
-
-.projects-page .background1 {
-    display: none;
 }

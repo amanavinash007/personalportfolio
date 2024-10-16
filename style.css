@@ -12,6 +12,7 @@ html {
 body {
     background: #080808;
     color: #fff;
+    padding-top: 60px; /* Add top padding to account for fixed header */
 }
 
 .header-text h1 {
@@ -90,11 +91,15 @@ nav ul li a:hover::after {
     margin-top: 20%;
     font-size: 30px;
 }
-
 .header-text h1 {
     font-size: 60px;
     margin-top: 20px;
 }
+
+.header-text h1 span {
+    color: #ff004f;
+}
+
 
 .header-text h1 span {
     color: #ff004f;
@@ -643,7 +648,7 @@ a.inline-flex {
 }
 
 a.inline-flex:hover {
-    color: ##B54769; /* Color on hover */
+    color: #B54769; /* Color on hover */
 }
 
 a.inline-flex svg {

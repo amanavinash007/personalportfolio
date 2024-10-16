@@ -540,9 +540,3 @@ a.inline-flex:hover svg {
 .resume-button:hover {
     color: #B54769; /* Set to desired hover color */
 }
-
-
-/* This rule will hide the background image only on the Projects page */
-#projects-page {
-    background-image: none;
-}

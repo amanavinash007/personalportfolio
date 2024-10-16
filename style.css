@@ -662,3 +662,107 @@ a.inline-flex:hover svg {
 .resume-button:hover {
     color: #B54769; /* Set to desired hover color */
 }
+/* Common styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #080808;
+    color: #fff;
+}
+
+/* Header styles */
+#header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#header nav ul li {
+    margin: 0 15px;
+}
+
+#header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Page-specific styles for projects.html */
+#projects-page #portfolio {
+    padding: 80px 20px 20px; /* Add top padding to account for fixed header */
+}
+
+#projects-page .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#projects-page .sub-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#projects-page .work-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#projects-page .work {
+    width: 30%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#projects-page .work img {
+    width: 100%;
+    display: block;
+}
+
+#projects-page .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#projects-page .work:hover .layer {
+    opacity: 1;
+}

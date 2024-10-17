@@ -32,18 +32,6 @@ li, p {
     font-size: 1.15em; /* Adjust the size as needed */
 }
 
-/* #header {
-    position: fixed;
-    top: 0px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-}
-*/
-
 .container {
     padding: 10px 10%;
 }
@@ -682,7 +670,6 @@ body {
     text-align: center;
     width: 100%;
     top: 0;
-    z-index: 1000;
 }
 
 #header nav {
